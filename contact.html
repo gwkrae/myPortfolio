@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me!</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="./index.html" class="logo">Portfolio</a>
+      <div class="menu-toggle" id="mobile-menu">☰</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./about.html">About Me</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="contact-info">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to use the form or message directly to an email.
+          Old-fashioned phone calls work too!
+        </p>
+        <p>📞 +63 905 377 7118</p>
+        <p>📧 mjcmesina@mymail.mapua.edu.ph</p>
+        <p>📍 459 Legaspi St., Lamaja Bldg., Intramuros, Metro Manila, 1002</p>
+
+        <div class="social-links">
+          <a
+            href="https://github.com/gwkrae"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a
+            href="https://www.facebook.com/maverick.mesina.2025"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/maverick-jurrel-mesina-2085b9365/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a
+            href="https://x.com/GW_Kratos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </div>
+      </div>
+
+      <div class="form-container">
+        <form>
+          <h2>Online Inquiry</h2>
+          <div class="name-fields">
+            <input type="text" placeholder="First" required />
+            <input type="text" placeholder="Last" required />
+          </div>
+          <input type="email" placeholder="Email" required />
+          <input type="tel" placeholder="Phone (optional)" />
+          <textarea
+            placeholder="Type your message"
+            rows="4"
+            required
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; Made by Lanz.</p>
+    </footer>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
